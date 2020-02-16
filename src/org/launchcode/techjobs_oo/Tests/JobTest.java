@@ -76,6 +76,7 @@ public class JobTest {
 //    //TODO: test if starts and ends with return
     @Test
     public void testStartsEnds(){
-        assertTrue(test_job1.toString().startsWith("\n")&& test_job1.toString().endsWith("\n"));
+        Job test_job8 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency(""));
+        assertTrue(test_job8.toString().startsWith("\n")&& test_job8.toString().endsWith("\n"));
     }
 }
